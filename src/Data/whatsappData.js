@@ -4,7 +4,7 @@ chat2,
 chat3,
 chat4,
 chat5,
-} from "../assets/whatsapp";
+} from "../Assets/whatsapp";
 
 export const chatsData = [
 {

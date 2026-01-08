@@ -1,0 +1,77 @@
+.left_menu_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: 2px;
+    border-right: 1px solid var(--border-color);
+}
+
+.left_menu_nav_container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 16px;
+    width: 100%;
+    height: 70px;
+    background-color: #202d33;
+}
+
+.left_menu_profile_pic {
+    width: 55px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.left_menu_btn_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 15px;
+}
+
+.left_menu_btn {
+    border: none;
+    background: none;
+}
+
+.left_menu_btn i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    color: #aebac1;
+    cursor: pointer;
+}
+
+.left_menu_bottom_container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.left_menu_input_container {
+    flex: 1;
+    padding-left: 10px;
+    height: 35px;
+    border: none;
+    border-radius: 9px;
+    background-color: var(--input-bg);
+    font-size: 15px;
+    color: var(--input-text);
+}
+
+.filter_btn {
+    border: none;
+    background: none;
+}
+
+.filter_btn i {
+    font-size: 23px;
+    color: var(--filter-btn-color);
+    cursor: pointer;
+}
